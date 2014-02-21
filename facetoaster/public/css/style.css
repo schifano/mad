@@ -358,18 +358,16 @@ img {
 .frame {
   position: absolute;
   display: block;
-  height: 636px;
-  width: 301px;
+  height: 700px;
+  width: 400px;
   z-index: 1000;
-  margin-top: -318px;
-  margin-left: -150px;
+  margin-top: -353px;
+  margin-left: -203px;
   top: 50%;
   left: 50%;
-  background: url("../img/frame-iphone-trans.png");
+  background: url("../img/nexusTemplate.png");
 }
-.frame.night {
-  background: url("../img/frame-iphone-trans-dark.png");
-}
+
 /* DESCRIPTION */
 .description {
   text-align: right;
