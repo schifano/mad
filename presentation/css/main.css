@@ -1,86 +1,31 @@
-#intro {
-	width: 100%;
-	height: 900px;
-	padding: 20px;
-	background-color: #333;
-	color: #fff;
-	position: relative;
-	top: -20px;
-}
-#technical {
+section {
 	width: 100%;
 	height: 900px;
 	padding: 20px;
 	margin-top: 0;
 }
-
-.right {
-
-	float: right;
-	padding-right: .5em;
-
+div.contain ul li {
+	font-size: 20pt;
+	padding: 10px;
 }
-
-.left {
-
-	float: left;
-	padding-left: .5em;
-
+.bkgrd_gray_dark {
+	background-color: #333;
+	color: #fff;
 }
-
-.list {
-
-	font-size: 3.0em;
-
+.contain{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-.center {
-	text-align: center;
-}
-
+.center {	text-align: center; }
+.gray { color: #eee;}
 .jumbotron {
 	position: relative;
 	margin-bottom: 0;
 	height: 900px;
 	padding: 100px;
-
 }
 .navbar {
 	background-color: #333;
 	color: #fff;
-}
-
-.fullWidth {
-
-	width: 100%;
-
-}
-
-p {
-
-	margin-top: 1.0em;
-	font-size: 3.0em;
-
-}
-
-ul.list {
-
-	position: relative;
-	margin: 0 auto;
-	left:1em;	
-	font-size: 2.0em;
-
-}
-
-h1 {
-
-	font-size: 4.0em;
-	font-weight: 800;
-
-}
-
-h2 {
-
-	font-weight: 700;
-
 }
