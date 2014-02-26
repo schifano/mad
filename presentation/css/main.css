@@ -1,17 +1,23 @@
+div.contain ul li {
+	font-size: 20pt;
+	padding: 10px;
+}
+h2 {
+	font-size: 30pt;
+	padding-bottom: 20px;
+}
+p { font-size: 20pt;}
 section {
 	width: 100%;
 	height: 900px;
 	padding: 20px;
 	margin-top: 0;
 }
-div.contain ul li {
-	font-size: 20pt;
-	padding: 10px;
-}
 .bkgrd_gray_dark {
 	background-color: #333;
 	color: #fff;
 }
+.bkgrd_gray_light { background-color: #eee; }
 .contain{
 	width: 75%;
 	margin-left: auto;
@@ -29,3 +35,4 @@ div.contain ul li {
 	background-color: #333;
 	color: #fff;
 }
+.right { float: right; }
