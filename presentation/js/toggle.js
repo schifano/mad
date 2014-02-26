@@ -26,9 +26,9 @@ $('document').ready(
 
 		$(document).keydown(function(e){
     	
-			e.preventDefault();
-
     	    if(e.keyCode == 40 || e.keyCode == 32) { 
+
+    	    	e.preventDefault();
 
                 if(count < max_length) {
 
@@ -44,6 +44,8 @@ $('document').ready(
     		}
 
     		if(e.keyCode == 38) {
+
+				e.preventDefault();
 
     			if(count > 1){
 
