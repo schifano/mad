@@ -13,6 +13,27 @@
 	padding: 20px;
 	margin-top: 0;
 }
+
+.right {
+
+	float: right;
+	padding-right: .5em;
+
+}
+
+.left {
+
+	float: left;
+	padding-left: .5em;
+
+}
+
+.list {
+
+	font-size: 3.0em;
+
+}
+
 .center {
 	text-align: center;
 }
@@ -27,4 +48,39 @@
 .navbar {
 	background-color: #333;
 	color: #fff;
+}
+
+.fullWidth {
+
+	width: 100%;
+
+}
+
+p {
+
+	margin-top: 1.0em;
+	font-size: 3.0em;
+
+}
+
+ul.list {
+
+	position: relative;
+	margin: 0 auto;
+	left:1em;	
+	font-size: 2.0em;
+
+}
+
+h1 {
+
+	font-size: 4.0em;
+	font-weight: 800;
+
+}
+
+h2 {
+
+	font-weight: 700;
+
 }
