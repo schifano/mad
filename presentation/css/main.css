@@ -17,6 +17,10 @@ section div.contain ul li {
 	font-size: 20pt;
 	padding: 10px;
 }
+section div.contain ol li {
+	font-size: 20pt;
+	padding: 10px;
+}
 .bkgrd_gray_dark {
 	background-color: #333;
 	color: #fff;
