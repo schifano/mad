@@ -46,7 +46,8 @@ section div.contain ul li {
 }
 ul.no_bullet li {
 	font-size: 15pt;
-	padding: 5px;
+	padding: 10px;
+	float: left;
 }
 .pad_top {
 	padding-top: 50px;
@@ -57,6 +58,6 @@ ul.no_bullet li {
 }
 .no_bullet {
 	list-style: none;
-	margin-left: -40px;
+	margin-left: -45px;
 }
 .right { float: right; }
