@@ -6,6 +6,10 @@ h2 {
 	font-size: 30pt;
 	padding-bottom: 20px;
 }
+h3 {
+	font-size: 25pt;
+	padding-top: 10px;
+}
 p { font-size: 20pt;}
 section {
 	width: 100%;
@@ -30,6 +34,9 @@ section {
 	margin-bottom: 0;
 	height: 900px;
 	padding: 100px;
+}
+.pad_top {
+	padding-top: 50px;
 }
 .navbar {
 	background-color: #333;
