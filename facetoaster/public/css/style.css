@@ -358,29 +358,33 @@ img {
 .frame {
   position: absolute;
   display: block;
-  height: 700px;
-  width: 400px;
+  height: 636px;
+  width: 301px;
   z-index: 1000;
-  margin-top: -353px;
-  margin-left: -203px;
+  margin-top: -318px;
+  margin-left: -150px;
   top: 50%;
   left: 50%;
-  background: url("../img/nexusTemplate.png");
+  background: url("../img/frame-iphone-trans.png");
 }
-
+.frame.night {
+  background: url("../img/frame-iphone-trans-dark.png");
+}
 /* DESCRIPTION */
 .description {
   text-align: right;
   width: 450px;
-  margin-left: -450px;
+  margin-left: -480px;
   margin-top: 84px;
 }
+
 .description-text {
 
   font-size: 1.5em;
   font-weight: 700;
 
 }
+
 .info-bottom-left {
   position: absolute;
   bottom: 60px;
