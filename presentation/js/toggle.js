@@ -51,7 +51,7 @@ $('document').ready(
 
     				count--;
 
-    			}else{
+    			} else{
 
     				count = max_length;
 
