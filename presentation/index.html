@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
 <header>
-		<title>Ergosphere</title>
-		<!-- Meta Tags -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ergosphere</title>
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/ergosphere_logo.ico">
-		<!-- JavaScript -->
-		<!-- <script src="/bootstrap-3.1.1-dist/js/bootstrap.js"></script> -->
+    <!-- JavaScript -->
+    <!-- <script src="/bootstrap-3.1.1-dist/js/bootstrap.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/toggle.js"></script>
 
-		<!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
@@ -34,9 +34,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#"><span class="gray">About Us</span></a></li>
+        <li><a href="about.html"><span class="gray">About Us</span></a></li>
         <li><a href="#"><span class="gray">Design</span></a></li>
-        <li><a href="#"><span class="gray">Contact</span></a></li>
+        <li><a href="contact.html"><span class="gray">Contact</span></a></li>
       </ul>
       <!-- <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
@@ -57,19 +57,20 @@
 </nav>
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-
+<div id="slides">
+<section>
 <div class="jumbotron center">
   <h1>Ergosphere</h1>
   <p>When you're a lifelong learner, knowledge never stands still.</p>
   <img src="images/ergosphere_logo.png" alt="Ergosphere logo"
        style="width: 300px; height: 300px; max-width: 100%; height: auto;">
 </div>
+</section>
 
-<div id="slides">
 <!-- Intro -->
 <section class="bkgrd_gray_dark"><div class="contain">
-	<h2>If you wish to make an [app] from scratch, you must first invent the [ergosphere]</h2>
-	<img class="img-responsive right" src="images/sagan.png" alt="Sagan">
+  <h2>If you wish to make an [app] from scratch, you must first invent the [ergosphere]</h2>
+  <img class="img-responsive right" src="images/sagan.png" alt="Sagan">
 
   <ul>
     <li>What do we want students to do more of? <em>Study</em>.</li>
@@ -97,17 +98,26 @@
 
 <!-- Psychology -->
 <section><div class="contain">
-  <h2>Don't make me think! [too much, anyway]</h2>
-  <img class="right" src="images/forgetting-curve.png" alt="Forgetting Curve" style="width: 50%; height: 50%;">
-  <p>Spaced Repetition Learning</p>
-
+  <h2><a href="http://www.aft.org/pdfs/americaneducator/fall2013/Dunlosky.pdf" target="_blank">Strengthening the Student Toolbox.</a></h2>
+  <img class="img-responsive right" src="images/forgetting-curve.png" alt="Forgetting Curve">
+  <ul>
+    <li>Distributed Practice &amp; <br>Spaced Repetition Learning</li>
+    <!--
+    This kind of practice is called distributed practice, because practice with any one word is distributed across time (and the time between practicing any one word is filled with another activity—in this case, writing other words).
+    -->
+    <li>Interleaved Practice - mixing it up</li>
+    <!--
+    For interleaved practice, when a new problem is presented, students need to first figure out which kind of problem it is and what steps they need to take to solve it.
+  -->
+    <li>Fight the &quot;Forgetting Curve&quot;</li>
+  </ul>
 </div></section>
 
 <!-- Emerging Tech -->
 <section class="bkgrd_gray_light"><div class="contain">
 
-  <h2>It knows you when you're sleeping<br>
-      It knows when you're awake</h2>
+  <h2>It knows you when you're sleeping.<br>
+      It knows when you're awake.</h2>
   <img class="img-responsive right" src="images/jawbone.png" alt="Jawbone Wristband">
   <p><strong>Jawbone UP 24</strong> provides user activity data that is syncronized in realtime to an iOS device using Bluetooth.</p>
 
@@ -126,7 +136,7 @@
 <!-- Backend -->
 <section><div class="contain">
 
-  <h2>If we build, they will learn</h2>
+  <h2>If we build, they will learn.</h2>
   <img class="right" src="images/octocat.png" alt="Octocat Macbook Air">
   <ul>
     <li>Database - <a href="http://www.techotopia.com/index.php/An_iOS_7_Core_Data_Tutorial" target="_blank">iOS Core Data</a></li>
@@ -139,28 +149,6 @@
 </div></section>
 
 </div> <!-- Slides -->
-
-<!--
-<section><div class="contain">
-  <h1>Jawbone App Platform</h1>
-  
-  <img class="img-responsive" src="images/jawboneDiscovery.jpeg" alt="Jawbone Application Pairing Screen">
-
-    <img class="img-responsive" src="images/jawboneApp.jpg" alt="Jawbone Software Screenshot">
-  
-  <p>The Jawbone App can be used to track your progress on personalized activity goals.</p>
-
-  <h3>Milestones</h3>
-
-  <ul>
-    <li>Sleep</li>
-    <li>Calorie Intake</li>
-    <li>Exercising Habits</li>
-    <li>Steps/Distance Traveled</li>
-    <li>Water Intake</li>
-  </ul>
-
-</div></section>-->
 
 </body>
 </html>
