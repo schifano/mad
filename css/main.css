@@ -9,7 +9,7 @@ h3 {
 p { font-size: 20pt;}
 section {
 	width: 100%;
-	height: 900px;
+	height: 1200px;
 	margin-top: 0;
 	padding-top: 20px;
 }
@@ -45,7 +45,7 @@ section div.contain ol li {
 	position: relative;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	height: 880px;
+	height: 1180px;
 	padding: 70px;
 }
 ul.no_bullet li {
